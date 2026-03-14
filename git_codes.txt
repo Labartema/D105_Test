@@ -2,9 +2,10 @@
 2.  git add "FILE NAME"                                       // TO ADD FILES TO THE WORKSTATIONS
 3.  git add .                                                 // TO ADD ALL FILES TO THE WORKSTATIONS AT ONCE.
 4.  git status                                                // TO CHECK THE STATUS OF THE WORKSTATION'S FILES
-5.  git commit -m "VERSION NAME"                              // TO PUSH THE WORKSTAION TO A VERSION (A SCREENSHOT OF THE FILES) AUTOMATICALLY DELETE THE FILES FROM THE WORKSTATION
+5.  git commit -m "VERSION NAME"                              // TO PUSH THE WORKSTAION TO A VERSION (A SCREENSHOT OF THE FILES AUTOMATICALLY DELETE THE FILES FROM THE WORKSTATION
 6.  git config --global user.email "Email"                    // TO LINK THE REMOTE REPOSITORY EMAIL TO THE LOCAL REPOSITORY
 7.  git config --global user.user "USER"                      // TO LINK THE USERNAME OF THE REMOTE REPOSITORY TO THE LOCAL REPOSITORY
 8.  git remote add origin "LINK OF THE ONLINE REPOSITORY"     // TO LINK THE LOCAL REPOSITORY TO THE ONLINE REPOSITORY
 9.  git push -u origin "NAME OF THE BRANCH"                   // TO PUSH THE LOCAL REPOSITORY TO THE REMOTE ONE.
-10. got clone "LINK OF THE ONLINE REPOSITORY"                 // TO DOWNLOAD THE VERSION FROM THE ONLINE REPOSITORY
+10. git clone "LINK OF THE ONLINE REPOSITORY"                 // TO DOWNLOAD THE VERSION FROM THE ONLINE REPOSITORY
+11. git branch -M "BRANCH NAME"                               // TO CREATE ANOTHER BRANCH
