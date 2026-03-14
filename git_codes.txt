@@ -1,4 +1,9 @@
 1. git init // to create a local repository.
-2. git add "File Name" // to add a file to the workstation
+2. git add "FILE NAME" // to add a file to the workstation
 3. git add . // to add all the files in the folder to the workstation.
 4. git status //  to check what are the files in the work station.
+5. git commit -m "VERSION NAME" // to push workstation to a version.
+6. git config --global user.email "Email" // to add the email 
+7. git config --global user.user "USER" // to add the user name.
+8. git remote add origin "Link of the online repository" // to link the local repository to  the remote repository.
+9. git push -u origin "NAME OF THE BRANCH" // TO push the repository to remote repository.
